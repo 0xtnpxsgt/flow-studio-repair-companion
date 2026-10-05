@@ -1,10 +1,12 @@
 # Privacy Policy — 0xtnp Flow Studio
 
-Last updated: October 4, 2026
+Last updated: October 5, 2026
 
 0xtnp Flow Studio helps users operate Google Flow generation queues, manage reference images, save results, and optionally repair flagged prompts.
 
 ## Information handled
+
+Optional background mode asks you to select a browser tab through Chrome's sharing dialog. The selected tab's video stream stays locally inside the extension and is not recorded, saved, analyzed, or transmitted. Audio is not captured. Sharing stops when you stop it, the queue finishes, or the panel closes. Choose only your Flow tab; this API cannot verify which tab you selected.
 
 The extension processes prompts, uploaded images, Google Flow page content and generation status, generated media, filenames, and the folders selected by the user. It stores extension preferences, repair configuration, and automation tab identifiers locally in Chrome. The optional developer helper can use a locally stored pairing token; this is separate from Google or AGY account credentials.
 
